@@ -1,12 +1,7 @@
 function dwarfRollCall(dwarves) {
   var list
   for (var i = 0; i < dwarves.length; i++) {
-    if (i === 0) {
-      list = (i + 1) + '. ' + dwarves[i] + ' '
-    }
-    else {
       list = list + (i + 1) + '. ' + dwarves[i] + ' '
-    }
   }
   return list
 }
