@@ -29,7 +29,7 @@ describe("longPlaneteerCalls", function() {
       });
 
       it("returns false if no calls are longer than 4 characters", function() {
-        var shortCalls = ["wind", "fire"];
+        var shortCalls = ["wind", "fires"];
         expect(longPlaneteerCalls(shortCalls)).toBe(false);
       });
 });
