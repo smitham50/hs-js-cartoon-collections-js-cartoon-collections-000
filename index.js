@@ -18,6 +18,7 @@ function summonCaptainPlanet(planeteerCalls){
       original[i].toUpperCase()
       calls.push(original[i] + '!')
     }
+    calls.toUpperCase
   return calls
 }
 
