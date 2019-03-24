@@ -37,8 +37,6 @@ function findTheCheese (foods) {
     if (typesOfCheese.includes(foods[i])) {
       return foods[i]
     }
-    else {
-      return 'no cheese!'
-    }
   }
+  return 'no cheese!'
 }
