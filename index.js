@@ -15,7 +15,7 @@ function summonCaptainPlanet(planeteerCalls){
   var original = planeteerCalls
   var calls = []
   for (var i = 0; i < original.length; i++) {
-      original[i].toUpperCase()
+      original[i] = original[i].toUpperCase()
       calls.push(original[i] + '!')
     }
   return calls
